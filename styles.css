@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Prompt', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  height: auto;
+  max-width: 1200px;
+  min-width: 600px;
+  margin: 50px auto;
+}
+@media (max-width: 1200px) {
+  .container {
+    max-width: 970px;
+    height: auto;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  aside {
+    display: none;
+  }
+}
+@media (max-width: 1024px) {
+  .container {
+    max-width: 750px;
+    height: auto;
+  }
+  .logo {
+    padding-left: 20px;
+  }
+  aside {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: none;
+    height: auto;
+  }
+  aside {
+    display: none;
+  }
+}
+header {
+  width: 100%;
+  height: 100px;
+}
+header .header_content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.logo {
+  display: flex;
+  align-items: center;
+}
+header .logo img {
+  width: 220px;
+  height: 50px;
+}
+header hr {
+  border-top: 2px solid #2b2b2b;
+}
+.main_part {
+  float: left;
+  width: 100%;
+  height: 100px;
+}
+.header_nav {
+  display: flex;
+  align-items: center;
+  height: 100px;
+}
+.header_nav li {
+  display: inline-block;
+}
+.header_nav a {
+  font-weight: bold;
+  padding: 5px;
+  font-size: 13px;
+  color: #2b2b2b;
+  text-decoration: none;
+}
+.header_nav a:hover {
+  color: #00ffb0;
+}
+.header_nav ul {
+  margin-left: 100px;
+}
+.social_media {
+  width: 15%;
+}
+header .social_media img {
+  max-width: 30px;
+}
+.main_image {
+  max-width: 100%;
+}
+.all {
+  padding: 2% 0;
+  height: 2800px;
+}
+.all hr {
+  border-top: 2px solid #2b2b2b;
+}
+.main_block {
+  font-size: 25px;
+  max-width: 750px;
+  float: left;
+}
+.main_block label {
+  font-size: medium;
+}
+.main_block p {
+  padding: 2% 0;
+}
+.main_block .secondary_image {
+  display: flex;
+  margin: 4% 10%;
+  width: 80%;
+}
+aside {
+  font-size: 20px;
+  min-width: 320px;
+  max-width: 320px;
+  float: right;
+}
+aside h3 {
+  padding: 4% 0;
+  font-size: x-large;
+}
+aside .data_post_block {
+  padding: 2% 0;
+}
+aside p {
+  padding: 2% 0;
+  font-size: 17px;
+  font-weight: bolder;
+}
+aside label {
+  font-size: 14px;
+  color: gray;
+}
+aside .hr_side {
+  border: 0.5px solid gray;
+}
+aside .button {
+  padding: 2% 0;
+}
+aside .alikebutton {
+  padding: 2% 0;
+  display: flex;
+  justify-content: center;
+  background-color: #2b2b2b;
+  color: white;
+}
+footer {
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+.footer_content {
+  width: 1200px;
+  margin: 0 auto;
+}
+footer nav {
+  padding: 30px 0;
+}
+footer a {
+  padding: 0 5px;
+  color: white;
+}
+footer a:hover {
+  color: #00ffb0;
+}
